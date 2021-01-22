@@ -1,21 +1,26 @@
 export const products = [
   {
-    name: 'Phone XL',
+    name: "Phone XL",
     price: 799,
-    description: 'A large phone with one of the best screens'
+    description: "最贵",
+    showMe: function() {
+      alert("me");
+    },
+    id: 0
   },
   {
-    name: 'Phone Mini',
+    name: "Phone Mini",
     price: 699,
-    description: 'A great phone with one of the best cameras'
+    description: "价格适中",
+    id: 200
   },
   {
-    name: '普通手机',
+    name: "普通手机",
     price: 299,
-    description: ''
+    description: "",
+    id: 123
   }
 ];
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
